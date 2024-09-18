@@ -1,3 +1,4 @@
+import 'package:expandz/screens/onboarding/onboarding_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,14 +14,7 @@ class MainApp extends StatelessWidget {
       title: "Expanz",
       debugShowCheckedModeBanner: false,
       theme: ThemeData(fontFamily: "Inter"),
-      home: const Scaffold(
-        body: Center(
-          child: Text(
-            "Hello World",
-            style: TextStyle(fontSize: 20, fontWeight: FontWeight.w500),
-          ),
-        ),
-      ),
+      home: OnboardingScreen(),
     );
   }
 }
