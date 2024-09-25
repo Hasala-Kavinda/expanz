@@ -35,7 +35,8 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                     controller: _controller,
                     onPageChanged: (value) {
                       setState(() {
-                        showDetailsPage = value == 3;
+                        showDetailsPage = value ==
+                            3; //show details becomes true if value is equals to 3
                       });
                     },
                     children: [
