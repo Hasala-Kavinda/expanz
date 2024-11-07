@@ -135,6 +135,9 @@ class _UserDataScreenState extends State<UserDataScreen> {
                           if (value!.isEmpty) {
                             return "Please Enter Same Password";
                           }
+                          if (!(value == _passwordController.text)) {
+                            return "Check the password again!";
+                          }
                         },
                         obscureText: true,
                         decoration: InputDecoration(
@@ -182,6 +185,10 @@ class _UserDataScreenState extends State<UserDataScreen> {
                           //Check whether the form is valid, if not validate it
                           if (_formKey.currentState!.validate()) {
                             //if form is valid, process data
+
+                            String userName = _userNameController.text;
+                            String password = _passwordController.text;
+                            String email = _emailController.text;
                           }
                         },
                         child: const CustomButton(

@@ -5,7 +5,6 @@ import 'package:expandz/screens/onboarding/shared_onboarding_screen.dart';
 import 'package:expandz/screens/user_data_screen.dart';
 import 'package:expandz/widgets/custom_button.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
 class OnboardingScreen extends StatefulWidget {
